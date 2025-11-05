@@ -1,29 +1,26 @@
 ---
-title: "index.qmd"
-format: html
-editor: visual
+title: "Lab S3"
+author: "Sammi Lai"
+format:
+  html:
+    toc: true
+    toc_float: true
+    code-fold: true
+    embed-resources: true
+    theme: cosmo
+execute: 
+  warning: false
+  message: false
 ---
 
-## Quarto
+## About Me
 
+My name is Sammi Lai. I am a student currently enrolled in Biology 478 - Pathogen Genome Analysis.
+
+![](images/cat.jpg){width="316"}
+
+## Labs
+
+### Lab 7:
 
 <https://github.com/sammilaik/Lab7>
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
